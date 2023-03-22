@@ -125,7 +125,7 @@ with col4:
 with col5:
    
   if st.button('Predict'):
-      st.write("The dosage amount is: ", predictions[0].round(2), "mg/day")
+      st.write("The optimal dosage amount for these inputs is: ", predictions[0].round(2), "mg/day")
   else:
       st.write("To get optimal dosage please fill all inputs and click on Predict button.")
 with col6:
