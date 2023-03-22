@@ -10,9 +10,9 @@ from PIL import Image
 
 st.set_page_config(
         layout="wide",
-        page_title= "Optimal Antidepressants Dosage Based On The Research",
+        page_title= "Antidepressants dosage based on the predictove model",
         page_icon="🧠")
-st.title("🧠 Optimal Antidepressants Dosage Based On The Research")
+st.title("Antidepressants dosage based on the predictove model")
 
 
 styl = """
