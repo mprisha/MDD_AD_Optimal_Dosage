@@ -32,19 +32,17 @@ button
     font-size: 24px;
     padding: 8px 25px;
     margin: 11px 0;
-    background: #fff !important;
-    color: #0274be !important;
+    background: #0274be !important;
 }
 code
 {
-background: #fff;
+background: none;
 }
 p
 {
 font-size: 17px;
 background: #5379a7;
 font-weight: 900;
-
 }
 button:hover, button:active, button:focus {
     color: #5379a7 !important;
