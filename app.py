@@ -19,7 +19,7 @@ styl = """
 <style>
 
 .stApp {
-background-image: url("https://www.bioaster.org/composants/uploads/2022/02/Diagnostics-1-1024x1024.jpg") !important;
+/* background-image: url("https://www.bioaster.org/composants/uploads/2022/02/Diagnostics-1-1024x1024.jpg") !important; */
 background-size: cover;
 }
 h1
