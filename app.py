@@ -113,7 +113,7 @@ with col3:
 ))
   marry = st.selectbox('MARITAL STATUS', ('MARRIED','WIDOWED','DIVORCED','SEPARATED','NEVER MARRIED', 
   'UNDER AGE 16 - INAPPLICABLE'))
-  adbmi = st.number_input('Body Mass Index',max_value=100)
+  adbmi = st.number_input('Body Mass Index',max_value=100, value=25)
 
 predictions = xgb_model.predict(np.array([[gender_dict[gender],adpain_dict[adpain],region_dict[region],
   race_dict[race],marry_dict[marry],cancer_dict[cancer],drug_dict[drug],durationcat_dict[durationcat],
@@ -127,7 +127,7 @@ with col5:
   if st.button('Predict'):
       st.write("The dosage amount is: ", predictions[0].round(2), "mg/day")
   else:
-      st.write(0)
+      st.write("To get optimal dosage please fill all inputs and click on Predict button.")
 with col6:
   st.write("")
 
